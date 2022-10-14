@@ -257,7 +257,7 @@ header nav ul li a.active-link:hover {
 }
 
 .contact_address {
-	margin-top: 10rem;
+	margin-top: 5rem;
 	width: 70%;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -534,7 +534,7 @@ footer {
 		position: absolute;
 		font-size: 3rem;
 		right: 5px;
-		top: 2.5rem;
+		top: 2.2rem;
 	}
 }
 
@@ -664,6 +664,7 @@ footer {
 		display: inline-block;
 		width: 100%;
 		padding: 0.7rem 0;
+		-webkit-tap-highlight-color: transparent;
 	}
 
 	header nav ul li a:hover {
@@ -676,6 +677,10 @@ footer {
 
 	header nav .hamburger {
 		display: block;
+	}
+
+	header nav .hamburger .icon {
+		-webkit-tap-highlight-color: transparent;
 	}
 }
 
